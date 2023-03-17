@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+    
+}
+
+
+
+
+
+.main{
+    height: 100vh;
+    margin: 0 auto;
+    padding:3rem;
+    align-items: center;
+    justify-content: center;
+    background:conic-gradient(from .5turn at bottom center, lightblue, white)
+    
+}
+.primary{
+    margin-bottom: 2rem;
+    text-align: center;
+    
+}
+
+img{
+    display: none;
+}
+
+.secondary{
+    justify-content: center;
+    display: flex;
+    
+}
+fieldset{
+    font-weight: bold;
+    border: 4px solid black;
+}
+
+
+
+input{
+    width: 90%;
+    padding: 0.2rem  0.5rem;
+    border:2px solid black;
+}
+
+.box{
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 3rem;
+    padding: 0.5rem 3rem ;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*utilities*/
+
+.pad{
+    margin-bottom: 0.5rem;
+}
+
+
+@media (min-width:900px) {
+  
+    .main{
+       display: flex;
+    }
+
+    .primary{
+        background-color: antiquewhite;
+        height: 100%;
+        display: flex;
+        align-items:  flex-start;
+        padding: 4rem;
+        width: 60%;
+    }
+    .secondary{
+        padding: 1rem;
+        
+    }
+
+    img{
+        margin-top: 1rem;
+        display: flex;
+        width: 50%;
+        height: 20rem;
+        align-self: center;
+        border-radius: 10px;
+
+    }
+    .image{
+        display: flex;
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    
+}

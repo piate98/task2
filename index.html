@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="primary">
+            <div>
+                <h1 class="pad"><i class="fa-solid fa-dungeon"></i></h1>
+                <h2 class="pad">The Prime Hotel</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint sunt eligendi quia in quas illo! Laboriosam alias necessitatibus quisquam, amet enim eos corrupti accusantium nemo accusamus illum ad earum doloremque!</p>
+                <div class="image"><img src="hotel.jpg" alt=""></div>
+            </div>
+
+
+        </div>
+        <div class="secondary">
+            <form id="userinput" onsubmit="return validateForm()">
+                <fieldset>
+                    <legend>Sign Up form</legend>
+                    <div>
+                        <div class="box">
+                            <label for="name">Name</label><br>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="box">
+                            <label for="email">Email</label><br>
+                            <input type="text" id="email" name="email"  required>
+                        </div>
+                        <div class="box">
+                            <label for="phone">Phone</label><br>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="box">
+                            <label for="gender">Gender</label>
+                            <select name="" id="" required>
+                                <option value=""  placeholder="--">--</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+                        <div class="box">
+                            <label for="password">Password</label><br>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="center"><button>Submit</button></div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
